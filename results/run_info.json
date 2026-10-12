@@ -1,0 +1,125 @@
+{
+  "python": "3.13.16",
+  "sklearn": "1.9.1",
+  "shap": "0.53.0",
+  "xgboost": "3.4.1",
+  "cpu": "x86_64",
+  "datasets": [
+    {
+      "data_seed": 7,
+      "rows_raw": 45000,
+      "rows_used": 45000,
+      "n_features": 33,
+      "classes": [
+        "Benign",
+        "BruteForce",
+        "DDoS",
+        "DoS",
+        "Mirai",
+        "Recon",
+        "Spoofing",
+        "Web"
+      ],
+      "n_train": 36000,
+      "n_test": 9000
+    },
+    {
+      "data_seed": 8,
+      "rows_raw": 45000,
+      "rows_used": 45000,
+      "n_features": 33,
+      "classes": [
+        "Benign",
+        "BruteForce",
+        "DDoS",
+        "DoS",
+        "Mirai",
+        "Recon",
+        "Spoofing",
+        "Web"
+      ],
+      "n_train": 36000,
+      "n_test": 9000
+    },
+    {
+      "data_seed": 9,
+      "rows_raw": 45000,
+      "rows_used": 45000,
+      "n_features": 33,
+      "classes": [
+        "Benign",
+        "BruteForce",
+        "DDoS",
+        "DoS",
+        "Mirai",
+        "Recon",
+        "Spoofing",
+        "Web"
+      ],
+      "n_train": 36000,
+      "n_test": 9000
+    },
+    {
+      "data_seed": 10,
+      "rows_raw": 45000,
+      "rows_used": 45000,
+      "n_features": 33,
+      "classes": [
+        "Benign",
+        "BruteForce",
+        "DDoS",
+        "DoS",
+        "Mirai",
+        "Recon",
+        "Spoofing",
+        "Web"
+      ],
+      "n_train": 36000,
+      "n_test": 9000
+    },
+    {
+      "data_seed": 11,
+      "rows_raw": 45000,
+      "rows_used": 45000,
+      "n_features": 33,
+      "classes": [
+        "Benign",
+        "BruteForce",
+        "DDoS",
+        "DoS",
+        "Mirai",
+        "Recon",
+        "Spoofing",
+        "Web"
+      ],
+      "n_train": 36000,
+      "n_test": 9000
+    }
+  ],
+  "args": {
+    "data": null,
+    "out": "results",
+    "sim_seeds": "7,8,9,10,11",
+    "sim_n": 45000,
+    "synthetic": false,
+    "label_col": null,
+    "max_rows_per_file": null,
+    "min_class_count": 50,
+    "train_cap": 300000,
+    "shap_n": 300,
+    "stab_reps": 4,
+    "prune_k": 16,
+    "defect_reps": 2,
+    "proxy_p": 0.5,
+    "no_dedup": false,
+    "fast": false,
+    "min_f1": 0.8,
+    "max_fpr": 0.15,
+    "max_size_kb": 20000,
+    "max_p95_ms": 50,
+    "min_stab": 0.6,
+    "max_k80": 16,
+    "max_top_share": 0.5,
+    "max_solo_f1": 0.9
+  }
+}

@@ -1,0 +1,4 @@
+tightness,clean control,label copy,noisy label proxy,15% label flips,oversized forest,2% training set,train/test duplicates
+0.9,0/10,10/10,0/10,10/10,10/10,0/10,10/10
+1.0,0/10,10/10,0/10,10/10,10/10,5/10,10/10
+1.1,2/10,10/10,0/10,10/10,10/10,10/10,10/10

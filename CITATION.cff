@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the paper."
+title: "AX-DevSecOps: simulator, experiment driver and results"
+authors:
+  - family-names: Al-Mrayat
+    given-names: Omar Isam
+    affiliation: Amman Arab University
+  - family-names: Jawarneh
+    given-names: Malik
+    affiliation: Amman Arab University
+  - family-names: Talafha
+    given-names: "We'am"
+    affiliation: Amman Arab University
+license: MIT
